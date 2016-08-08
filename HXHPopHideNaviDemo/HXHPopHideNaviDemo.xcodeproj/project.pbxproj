@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E7C2F8DA6A154A63CB3D94B /* libPods-HXHPopHideNaviDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C1FBDAE51CF0F0C49D513D /* libPods-HXHPopHideNaviDemoTests.a */; };
+		6AC33D8AABB46F77CF34C07C /* libPods-HXHPopHideNaviDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C502F299DA1DDC91E6D576B /* libPods-HXHPopHideNaviDemo.a */; };
+		F083C8EE1D58AFBD0033AA6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C8ED1D58AFBD0033AA6C /* main.m */; };
+		F083C8F11D58AFBD0033AA6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C8F01D58AFBD0033AA6C /* AppDelegate.m */; };
+		F083C8F91D58AFBD0033AA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F083C8F81D58AFBD0033AA6C /* Assets.xcassets */; };
+		F083C8FC1D58AFBD0033AA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F083C8FA1D58AFBD0033AA6C /* LaunchScreen.storyboard */; };
+		F083C9071D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C9061D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.m */; };
+		F083C9221D58B16C0033AA6C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C91C1D58B16C0033AA6C /* OneViewController.m */; };
+		F083C9231D58B16C0033AA6C /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C91E1D58B16C0033AA6C /* ThreeViewController.m */; };
+		F083C9241D58B16C0033AA6C /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C9201D58B16C0033AA6C /* TwoViewController.m */; };
+		F083C9271D58B1880033AA6C /* HXHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C9261D58B1880033AA6C /* HXHNavigationController.m */; };
+		F083C92A1D58B1D80033AA6C /* NSObject+HXHAssociative.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C9291D58B1D80033AA6C /* NSObject+HXHAssociative.m */; };
+		F083C92D1D58B1FF0033AA6C /* HXHSlideAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C92C1D58B1FF0033AA6C /* HXHSlideAnimatedTransitioning.m */; };
+		F083C9301D58B2960033AA6C /* UIView+HXHSnipScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F083C92F1D58B2960033AA6C /* UIView+HXHSnipScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F083C9031D58AFBD0033AA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F083C8E11D58AFBD0033AA6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F083C8E81D58AFBD0033AA6C;
+			remoteInfo = HXHPopHideNaviDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A30A52DDF49556158233F3D /* Pods-HXHPopHideNaviDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXHPopHideNaviDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXHPopHideNaviDemoTests/Pods-HXHPopHideNaviDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		68521518E6D2915DE70DB68D /* Pods-HXHPopHideNaviDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXHPopHideNaviDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXHPopHideNaviDemo/Pods-HXHPopHideNaviDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6C502F299DA1DDC91E6D576B /* libPods-HXHPopHideNaviDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXHPopHideNaviDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81F8F0E8A794DC142BFE100 /* Pods-HXHPopHideNaviDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXHPopHideNaviDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXHPopHideNaviDemo/Pods-HXHPopHideNaviDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA78CEBD25EA6EA0AEFC06C /* Pods-HXHPopHideNaviDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXHPopHideNaviDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXHPopHideNaviDemoTests/Pods-HXHPopHideNaviDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F083C8E91D58AFBD0033AA6C /* HXHPopHideNaviDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXHPopHideNaviDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F083C8ED1D58AFBD0033AA6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F083C8EF1D58AFBD0033AA6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F083C8F01D58AFBD0033AA6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F083C8F81D58AFBD0033AA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F083C8FB1D58AFBD0033AA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F083C8FD1D58AFBD0033AA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F083C9021D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXHPopHideNaviDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F083C9061D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXHPopHideNaviDemoTests.m; sourceTree = "<group>"; };
+		F083C9081D58AFBD0033AA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F083C91B1D58B16C0033AA6C /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		F083C91C1D58B16C0033AA6C /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		F083C91D1D58B16C0033AA6C /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		F083C91E1D58B16C0033AA6C /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		F083C91F1D58B16C0033AA6C /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		F083C9201D58B16C0033AA6C /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		F083C9251D58B1880033AA6C /* HXHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHNavigationController.h; sourceTree = "<group>"; };
+		F083C9261D58B1880033AA6C /* HXHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHNavigationController.m; sourceTree = "<group>"; };
+		F083C9281D58B1D80033AA6C /* NSObject+HXHAssociative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HXHAssociative.h"; sourceTree = "<group>"; };
+		F083C9291D58B1D80033AA6C /* NSObject+HXHAssociative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HXHAssociative.m"; sourceTree = "<group>"; };
+		F083C92B1D58B1FF0033AA6C /* HXHSlideAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHSlideAnimatedTransitioning.h; sourceTree = "<group>"; };
+		F083C92C1D58B1FF0033AA6C /* HXHSlideAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHSlideAnimatedTransitioning.m; sourceTree = "<group>"; };
+		F083C92E1D58B2960033AA6C /* UIView+HXHSnipScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HXHSnipScreen.h"; sourceTree = "<group>"; };
+		F083C92F1D58B2960033AA6C /* UIView+HXHSnipScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXHSnipScreen.m"; sourceTree = "<group>"; };
+		F4C1FBDAE51CF0F0C49D513D /* libPods-HXHPopHideNaviDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXHPopHideNaviDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F083C8E61D58AFBD0033AA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC33D8AABB46F77CF34C07C /* libPods-HXHPopHideNaviDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F083C8FF1D58AFBD0033AA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7C2F8DA6A154A63CB3D94B /* libPods-HXHPopHideNaviDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C0CAACDA28E3DAF2521AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C502F299DA1DDC91E6D576B /* libPods-HXHPopHideNaviDemo.a */,
+				F4C1FBDAE51CF0F0C49D513D /* libPods-HXHPopHideNaviDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADF573467F44BF97372833E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81F8F0E8A794DC142BFE100 /* Pods-HXHPopHideNaviDemo.debug.xcconfig */,
+				68521518E6D2915DE70DB68D /* Pods-HXHPopHideNaviDemo.release.xcconfig */,
+				DDA78CEBD25EA6EA0AEFC06C /* Pods-HXHPopHideNaviDemoTests.debug.xcconfig */,
+				3A30A52DDF49556158233F3D /* Pods-HXHPopHideNaviDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F083C8E01D58AFBD0033AA6C = {
+			isa = PBXGroup;
+			children = (
+				F083C8EB1D58AFBD0033AA6C /* HXHPopHideNaviDemo */,
+				F083C9051D58AFBD0033AA6C /* HXHPopHideNaviDemoTests */,
+				F083C8EA1D58AFBD0033AA6C /* Products */,
+				ADF573467F44BF97372833E5 /* Pods */,
+				27C0CAACDA28E3DAF2521AC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F083C8EA1D58AFBD0033AA6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F083C8E91D58AFBD0033AA6C /* HXHPopHideNaviDemo.app */,
+				F083C9021D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F083C8EB1D58AFBD0033AA6C /* HXHPopHideNaviDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F083C8EF1D58AFBD0033AA6C /* AppDelegate.h */,
+				F083C8F01D58AFBD0033AA6C /* AppDelegate.m */,
+				F083C91A1D58B16C0033AA6C /* Controllers */,
+				F083C9211D58B16C0033AA6C /* HXHNavigation */,
+				F083C8F81D58AFBD0033AA6C /* Assets.xcassets */,
+				F083C8FA1D58AFBD0033AA6C /* LaunchScreen.storyboard */,
+				F083C8FD1D58AFBD0033AA6C /* Info.plist */,
+				F083C8EC1D58AFBD0033AA6C /* Supporting Files */,
+			);
+			path = HXHPopHideNaviDemo;
+			sourceTree = "<group>";
+		};
+		F083C8EC1D58AFBD0033AA6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F083C8ED1D58AFBD0033AA6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F083C9051D58AFBD0033AA6C /* HXHPopHideNaviDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F083C9061D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.m */,
+				F083C9081D58AFBD0033AA6C /* Info.plist */,
+			);
+			path = HXHPopHideNaviDemoTests;
+			sourceTree = "<group>";
+		};
+		F083C91A1D58B16C0033AA6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F083C91B1D58B16C0033AA6C /* OneViewController.h */,
+				F083C91C1D58B16C0033AA6C /* OneViewController.m */,
+				F083C91F1D58B16C0033AA6C /* TwoViewController.h */,
+				F083C9201D58B16C0033AA6C /* TwoViewController.m */,
+				F083C91D1D58B16C0033AA6C /* ThreeViewController.h */,
+				F083C91E1D58B16C0033AA6C /* ThreeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F083C9211D58B16C0033AA6C /* HXHNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F083C9251D58B1880033AA6C /* HXHNavigationController.h */,
+				F083C9261D58B1880033AA6C /* HXHNavigationController.m */,
+				F083C92B1D58B1FF0033AA6C /* HXHSlideAnimatedTransitioning.h */,
+				F083C92C1D58B1FF0033AA6C /* HXHSlideAnimatedTransitioning.m */,
+				F083C9281D58B1D80033AA6C /* NSObject+HXHAssociative.h */,
+				F083C9291D58B1D80033AA6C /* NSObject+HXHAssociative.m */,
+				F083C92E1D58B2960033AA6C /* UIView+HXHSnipScreen.h */,
+				F083C92F1D58B2960033AA6C /* UIView+HXHSnipScreen.m */,
+			);
+			path = HXHNavigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F083C8E81D58AFBD0033AA6C /* HXHPopHideNaviDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F083C90B1D58AFBD0033AA6C /* Build configuration list for PBXNativeTarget "HXHPopHideNaviDemo" */;
+			buildPhases = (
+				EAA75386A49B663E565AB4F5 /* 📦 Check Pods Manifest.lock */,
+				F083C8E51D58AFBD0033AA6C /* Sources */,
+				F083C8E61D58AFBD0033AA6C /* Frameworks */,
+				F083C8E71D58AFBD0033AA6C /* Resources */,
+				091F298449261AECD4CBAFB4 /* 📦 Embed Pods Frameworks */,
+				5E8C28FE754BFFEAFB89F88A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXHPopHideNaviDemo;
+			productName = HXHPopHideNaviDemo;
+			productReference = F083C8E91D58AFBD0033AA6C /* HXHPopHideNaviDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F083C9011D58AFBD0033AA6C /* HXHPopHideNaviDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F083C90E1D58AFBD0033AA6C /* Build configuration list for PBXNativeTarget "HXHPopHideNaviDemoTests" */;
+			buildPhases = (
+				A80EA8869C75A36F189D107A /* 📦 Check Pods Manifest.lock */,
+				F083C8FE1D58AFBD0033AA6C /* Sources */,
+				F083C8FF1D58AFBD0033AA6C /* Frameworks */,
+				F083C9001D58AFBD0033AA6C /* Resources */,
+				9BB0C21B545362CB5560A327 /* 📦 Embed Pods Frameworks */,
+				17FEE543C7950EC75BA3CCF6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F083C9041D58AFBD0033AA6C /* PBXTargetDependency */,
+			);
+			name = HXHPopHideNaviDemoTests;
+			productName = HXHPopHideNaviDemoTests;
+			productReference = F083C9021D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F083C8E11D58AFBD0033AA6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ColorPen;
+				TargetAttributes = {
+					F083C8E81D58AFBD0033AA6C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F083C9011D58AFBD0033AA6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F083C8E81D58AFBD0033AA6C;
+					};
+				};
+			};
+			buildConfigurationList = F083C8E41D58AFBD0033AA6C /* Build configuration list for PBXProject "HXHPopHideNaviDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F083C8E01D58AFBD0033AA6C;
+			productRefGroup = F083C8EA1D58AFBD0033AA6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F083C8E81D58AFBD0033AA6C /* HXHPopHideNaviDemo */,
+				F083C9011D58AFBD0033AA6C /* HXHPopHideNaviDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F083C8E71D58AFBD0033AA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083C8FC1D58AFBD0033AA6C /* LaunchScreen.storyboard in Resources */,
+				F083C8F91D58AFBD0033AA6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F083C9001D58AFBD0033AA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091F298449261AECD4CBAFB4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXHPopHideNaviDemo/Pods-HXHPopHideNaviDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17FEE543C7950EC75BA3CCF6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXHPopHideNaviDemoTests/Pods-HXHPopHideNaviDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8C28FE754BFFEAFB89F88A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXHPopHideNaviDemo/Pods-HXHPopHideNaviDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB0C21B545362CB5560A327 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXHPopHideNaviDemoTests/Pods-HXHPopHideNaviDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80EA8869C75A36F189D107A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA75386A49B663E565AB4F5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F083C8E51D58AFBD0033AA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083C92A1D58B1D80033AA6C /* NSObject+HXHAssociative.m in Sources */,
+				F083C9271D58B1880033AA6C /* HXHNavigationController.m in Sources */,
+				F083C9221D58B16C0033AA6C /* OneViewController.m in Sources */,
+				F083C8F11D58AFBD0033AA6C /* AppDelegate.m in Sources */,
+				F083C8EE1D58AFBD0033AA6C /* main.m in Sources */,
+				F083C9241D58B16C0033AA6C /* TwoViewController.m in Sources */,
+				F083C9231D58B16C0033AA6C /* ThreeViewController.m in Sources */,
+				F083C92D1D58B1FF0033AA6C /* HXHSlideAnimatedTransitioning.m in Sources */,
+				F083C9301D58B2960033AA6C /* UIView+HXHSnipScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F083C8FE1D58AFBD0033AA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083C9071D58AFBD0033AA6C /* HXHPopHideNaviDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F083C9041D58AFBD0033AA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F083C8E81D58AFBD0033AA6C /* HXHPopHideNaviDemo */;
+			targetProxy = F083C9031D58AFBD0033AA6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F083C8FA1D58AFBD0033AA6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F083C8FB1D58AFBD0033AA6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F083C9091D58AFBD0033AA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F083C90A1D58AFBD0033AA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F083C90C1D58AFBD0033AA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81F8F0E8A794DC142BFE100 /* Pods-HXHPopHideNaviDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXHPopHideNaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitauto-test.HXHPopHideNaviDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F083C90D1D58AFBD0033AA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68521518E6D2915DE70DB68D /* Pods-HXHPopHideNaviDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXHPopHideNaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitauto-test.HXHPopHideNaviDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F083C90F1D58AFBD0033AA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA78CEBD25EA6EA0AEFC06C /* Pods-HXHPopHideNaviDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXHPopHideNaviDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitauto-test.HXHPopHideNaviDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXHPopHideNaviDemo.app/HXHPopHideNaviDemo";
+			};
+			name = Debug;
+		};
+		F083C9101D58AFBD0033AA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A30A52DDF49556158233F3D /* Pods-HXHPopHideNaviDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HXHPopHideNaviDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitauto-test.HXHPopHideNaviDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXHPopHideNaviDemo.app/HXHPopHideNaviDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F083C8E41D58AFBD0033AA6C /* Build configuration list for PBXProject "HXHPopHideNaviDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F083C9091D58AFBD0033AA6C /* Debug */,
+				F083C90A1D58AFBD0033AA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F083C90B1D58AFBD0033AA6C /* Build configuration list for PBXNativeTarget "HXHPopHideNaviDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F083C90C1D58AFBD0033AA6C /* Debug */,
+				F083C90D1D58AFBD0033AA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F083C90E1D58AFBD0033AA6C /* Build configuration list for PBXNativeTarget "HXHPopHideNaviDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F083C90F1D58AFBD0033AA6C /* Debug */,
+				F083C9101D58AFBD0033AA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F083C8E11D58AFBD0033AA6C /* Project object */;
+}
